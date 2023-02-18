@@ -11,6 +11,13 @@
 # production
 /build
 
+# Avoid accidental Sketch file upload 
+*.sketch
+
+# Avoid accidental XD or Figma upload if you convert the design file
+*.xd
+*.fig
+
 # misc
 .DS_Store
 .env.local
