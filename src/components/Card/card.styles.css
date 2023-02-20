@@ -1,0 +1,29 @@
+@media screen and (min-width: 768px) {
+    .container .row {
+        gap: 0.7rem;
+    }
+
+    .custom-width {
+        width: 32%;
+    }
+
+    .flag-height {
+        height: 190px;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .container .row {
+        gap: 1.5rem;
+    }
+
+    .custom-width {
+        width: 23%;
+    }
+
+    .flag-height {
+        height: 190px;
+    }
+
+}
