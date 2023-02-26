@@ -1,14 +1,17 @@
 import { NavTop, Card, SearchBar } from './components';
-import './App.css';
+// import { useState, useEffect } from 'react';
+// import { ThemeContext, themes } from './context/ThemeContext';
+import './App.scss';
 
 function App() {
+
   return (
-    <div className="App">
+    <>
       <NavTop />
       <SearchBar />
       <Card />
-    </div>
-  );
+    </>
+  )
 }
 
 export default App;
